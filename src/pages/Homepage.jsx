@@ -1,13 +1,11 @@
-import Navbar from '../components/homepage/Navbar'
-import JobListings from '../components/jobListings/JobListings'
-import SearchJobs from '../components/jobListings/SearchJobs'
+import Navbar from '../components/home/Navbar'
+import JobListings from '../components/home/JobListings'
 import { Link } from 'react-router-dom'
 
 const Homepage = () => {
   return (
     <div>
       <Navbar />
-      <SearchJobs />
       <JobListings />
     </div>
   )

@@ -11,7 +11,7 @@ const Narvbar = () => {
             <li>Community</li>
             <li>Jobs</li>
             <li>For Employers</li>
-            <li>For Employers</li>
+            <li>FAQs</li>
           </ul>
         </div>
         <div className='nav-item'>
