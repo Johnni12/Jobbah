@@ -34,7 +34,7 @@ export const jobs = [
     image: 'https://placekitten.com/209/200',
     title: 'Backend Developer',
     description: 'Build and maintain server-side applications and databases.',
-    type: 'Full-time',
+    type: 'Internship',
     level: 'Senior',
     location: 'Seattle',
   },
@@ -44,7 +44,7 @@ export const jobs = [
     title: 'Cybersecurity Analyst',
     description:
       'Protect our systems and networks from security breaches and cyber threats.',
-    type: 'Full-time',
+    type: 'Training',
     level: 'Mid-level',
     location: 'Chicago',
   },
@@ -84,7 +84,7 @@ export const jobs = [
     title: 'IT Support Specialist',
     description:
       'Provide technical support and troubleshoot IT issues for end-users.',
-    type: 'Full-time',
+    type: 'Contract',
     level: 'Senior',
     location: 'Los Angeles',
   },
@@ -94,7 +94,7 @@ export const jobs = [
     title: 'Cloud Solutions Architect',
     description:
       'Design and implement scalable and secure cloud-based solutions.',
-    type: 'Full-time',
+    type: 'Internship',
     level: 'Mid-level',
     location: 'Seattle',
   },
@@ -114,7 +114,7 @@ export const jobs = [
     title: 'Network Engineer',
     description:
       'Design, implement, and manage network infrastructure for optimal performance.',
-    type: 'Full-time',
+    type: 'Contract',
     level: 'Senior',
     location: 'Austin',
   },
@@ -124,7 +124,7 @@ export const jobs = [
     title: 'Technical Writer',
     description:
       'Create clear and concise documentation for technical processes and products.',
-    type: 'Full-time',
+    type: 'Internship',
     level: 'Mid-level',
     location: 'San Francisco',
   },
@@ -144,7 +144,7 @@ export const jobs = [
     title: 'Quality Assurance Tester',
     description:
       'Ensure the quality and functionality of software through rigorous testing.',
-    type: 'Full-time',
+    type: 'Training',
     level: 'Senior',
     location: 'Los Angeles',
   },
@@ -178,5 +178,38 @@ export const jobs = [
     level: 'Senior',
     location: 'Austin',
   },
+
+  {
+    id: 19,
+    image: 'https://placekitten.com/215/200',
+    title: 'Database Administrator',
+    description:
+      'Administer and maintain databases for efficient data storage and retrieval.',
+    type: 'Full-time',
+    level: 'Mid-level',
+    location: 'Seattle',
+  },
+  {
+    id: 20,
+    image: 'https://placekitten.com/216/200',
+    title: 'Product Owner',
+    description:
+      'Own and prioritize the product backlog to maximize business value.',
+    type: 'Remote',
+    level: 'Entry',
+    location: 'Chicago',
+  },
+  {
+    id: 21,
+    image: 'https://placekitten.com/217/200',
+    title: 'System Administrator',
+    description:
+      'Manage and maintain IT infrastructure, ensuring optimal performance.',
+    type: 'Full-time',
+    level: 'Senior',
+    location: 'Austin',
+  },
   // Add more objects as needed
 ]
+
+ 

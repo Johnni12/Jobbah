@@ -16,7 +16,7 @@ const JobListing = () => {
     <>
       <SearchJobs onFilterChange={handleFilterChange} />
       <div className='job-listing-container'>
-        <Sidebar />
+        <Sidebar jobs={jobs} onFilterChange={handleFilterChange}/>
 
         <div className='job-cards-container'>
           {filteredJobs.map((job) => (
