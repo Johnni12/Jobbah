@@ -1,5 +1,5 @@
 import '../../assets/styles/navbar.css'
-import React from 'react'
+import { FaBeer } from 'react-icons/fa'
 
 const Narvbar = () => {
   return (
@@ -15,6 +15,9 @@ const Narvbar = () => {
           </ul>
         </div>
         <div className='nav-item'>
+          <h3>
+            Lets go for a <FaBeer />?
+          </h3>
           <button className='btn'>Login</button>
           <button>Signup</button>
         </div>
