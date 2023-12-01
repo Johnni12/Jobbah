@@ -60,7 +60,14 @@ const JobListing = () => {
 
 export default JobListing
 
-/*import React, { useState, useEffect } from 'react';
+
+
+
+/*
+
+***Data fetching component***
+
+import React, { useState, useEffect } from 'react';
 import Sidebar from './Sidebar';
 import JobCard from './JobCard';
 import SearchJobs from './SearchJobs';
