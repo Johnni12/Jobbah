@@ -30,13 +30,11 @@ body {
 
 .nav-item {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
-.nav-item input {
-  padding: 5px;
-  margin-right: 10px;
-  border-radius: 18px;
-}
 
 .nav-item button {
   background-color: #2C3E50;
@@ -51,5 +49,4 @@ body {
  background-color: #ECF0F1;
  color: #2C3E50;
  border:1px solid #2C3E50 ;
- margin-right: 20px;
 }

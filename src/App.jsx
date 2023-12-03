@@ -1,11 +1,14 @@
 import React from 'react'
 import AppRouter from './routes/AppRouter'
+import { ThemeProvider } from './context/ThemeContex'
 
 const App = () => {
   return (
-    <div>
-    <AppRouter/>
-    </div>
+    <ThemeProvider>
+      <div>
+        <AppRouter />
+      </div>
+    </ThemeProvider>
   )
 }
 
