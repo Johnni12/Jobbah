@@ -9,7 +9,6 @@ import SEO from '../pages/SEO'
 import SocialMedia from '../pages/SocialMedia'
 import AdvancedFeatures from '../pages/AdvancedFeatures'
 
-
 const AppRouter = () => {
   return (
     <Routes>
@@ -20,12 +19,8 @@ const AppRouter = () => {
       <Route path='/application-process' element={<ApplicationProcess />} />
       <Route path='/notification' element={<Notification />} />
       <Route path='/seo-and-analytics' element={<SEO />} />
-      <Route
-        path='/social-media'
-        element={<SocialMedia />}
-      />
+      <Route path='/social-media' element={<SocialMedia />} />
       <Route path='/advanced-features' element={<AdvancedFeatures />} />
-    
     </Routes>
   )
 }
