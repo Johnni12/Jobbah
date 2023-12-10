@@ -7,7 +7,7 @@ export const jobs = [
       'Join our dynamic team working on innovative web and mobile applications.',
     type: 'Full-time',
     level: 'Senior',
-    location: 'San Francisco',
+    location: 'Lagos',
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ export const jobs = [
       'Develop and implement machine learning models for various applications.',
     type: 'Full-time',
     level: 'Mid-level',
-    location: 'San Francisco',
+    location: 'Lagos',
   },
   {
     id: 8,
@@ -126,7 +126,7 @@ export const jobs = [
       'Create clear and concise documentation for technical processes and products.',
     type: 'Internship',
     level: 'Mid-level',
-    location: 'San Francisco',
+    location: 'Nigeria',
   },
   {
     id: 14,

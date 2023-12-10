@@ -9,7 +9,7 @@ const JobCard = ({ title, level,location,type,description, image }) => {
       <p>{description}</p>
       <span>{type}</span>
       <span>{level}</span>
-      {/*<span>{location}</span>*/}
+      <span>{location}</span>
     </div>
   )
 }
