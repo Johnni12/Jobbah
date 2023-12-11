@@ -1,13 +1,14 @@
+import { Link } from 'react-router-dom';
 import '../../assets/styles/navbar.css'
 import { useTheme } from '../../context/ThemeContex'
-import Switch from 'react-switch'
+import mode from '../../assets/img/lightmode.png'
+
+
 const Narvbar = () => {
-  const { isDarkMode, toggleTheme } = useTheme()
-
-
+   const { isDarkMode, toggleTheme } = useTheme();
   return (
-    <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-      <header className='nav-container'>
+    <div>
+      <header className={`nav-container ${isDarkMode ? 'dark' : 'light'}`}>
         <h1>Jobbah</h1>
         <div className='nav-list'>
           <ul>
@@ -18,13 +19,7 @@ const Narvbar = () => {
           </ul>
         </div>
         <div className='nav-item'>
-          <Switch
-            onChange={toggleTheme}
-            uncheckedIcon={false}
-            checkedIcon={false}
-            onColor={'#2C3E50'}
-            checked={true}
-          />
+          <img src={mode} alt='' onClick={toggleTheme}  className='mode'/>
           <button className='btn'>Login</button>
           <button>Signup</button>
         </div>

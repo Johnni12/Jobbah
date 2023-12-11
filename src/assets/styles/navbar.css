@@ -50,3 +50,23 @@ body {
  color: #2C3E50;
  border:1px solid #2C3E50 ;
 }
+.mode{
+  
+  width: 50px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.nav-container.light {
+  background-color: #ECF0F1;
+  color: #333333;
+}
+
+/* Dark Theme */
+.nav-container.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+
