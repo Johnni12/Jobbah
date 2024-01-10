@@ -42,6 +42,7 @@ const JobListing = () => {
               image={job.image}
               description={job.description}
               type={job.type}
+              id={job.id}
               level={job.level}
               location={job.location}
             />
@@ -81,7 +82,7 @@ const JobListing = () => {
     // Async function to fetch jobs from the backend
     const fetchJobs = async () => {
       try {
-        const response = await fetch('your_backend_api_endpoint');
+        const response = await fetch('API');
         const data = await response.json();
         setFilteredJobs(data);
       } catch (error) {
@@ -93,8 +94,7 @@ const JobListing = () => {
 
     // Call the async function
     fetchJobs();
-  }, []); // Empty dependency array ensures the effect runs only once on mount
-
+  }, []); 
   const handleFilterChange = (filteredJobs) => {
     setFilteredJobs(filteredJobs);
   };

@@ -8,7 +8,7 @@ const AppRouter = () => {
   return (
     <Routes>
       <Route path='/' exact element={<Homepage />} />
-      <Route path='job-details' element={<JobDetails />} />
+      <Route path="/job-details/:id" element={<JobDetails />} />
       <Route path='user-account' element={<UserAccount />} />
     
     </Routes>
