@@ -252,7 +252,7 @@ label:hover {
 
 /*....JOB CARD....*/
 
-
+/* Default styles for all screens */
 .job-card {
   width: 26%;
   margin: 10px;
@@ -264,20 +264,24 @@ label:hover {
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  }
 }
 
-.job-card img{
+.job-card img {
   max-width: 80px;
   border-radius: 10px;
 }
 
-.job-card span{
+.job-card span {
   border-radius: 10px;
   margin-right: 15px;
   padding: 5px;
   border: 1px solid #2C3E50;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .job-card {
+    width: 100%; /* Full width for smaller screens */
+    margin: 10px 0; /* Adjust margin for spacing */
+  }
 }
