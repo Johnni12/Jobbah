@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../assets/styles/jobfilter.css'
+
 
 const JobFilter = ({ jobs, onFilterChange }) => {
   const [selectedTypes, setSelectedTypes] = useState([])

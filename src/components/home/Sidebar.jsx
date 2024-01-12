@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../assets/styles/sidebar.css'
 import JobAlert from './JobAlert'
 import JobFilter from './JobFilters'
 

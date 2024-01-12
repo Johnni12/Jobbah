@@ -3,7 +3,6 @@ import Sidebar from './Sidebar'
 import JobCard from './JobCard'
 import SearchJobs from './SearchJobs'
 import Pagination from '../../utils/Pagination'
-import '../../assets/styles/joblisting.css'
 import { jobs } from '../../utils/dummy_data'
 
 const itemsPerPage = 9 

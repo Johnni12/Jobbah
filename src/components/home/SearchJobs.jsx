@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import '../../assets/styles/searchjobs.css'
 import { jobs  } from '../../utils/dummy_data'
 
 const SearchJobs = ({ onFilterChange }) => {

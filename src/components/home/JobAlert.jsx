@@ -1,4 +1,4 @@
-import '../../assets/styles/sidebar.css'
+
 
 const JobAlert = () => {
   return (
