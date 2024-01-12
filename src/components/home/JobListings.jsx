@@ -5,17 +5,15 @@ import SearchJobs from './SearchJobs'
 import Pagination from '../../utils/Pagination'
 import { jobs } from '../../utils/dummy_data'
 
-const itemsPerPage = 9 
+const itemsPerPage = 9
 
 const JobListing = () => {
   const [currentPage, setCurrentPage] = useState(1)
   const [filteredJobs, setFilteredJobs] = useState(jobs)
 
-  
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = startIndex + itemsPerPage
 
-  
   const currentJobs = filteredJobs.slice(startIndex, endIndex)
 
   const handleFilterChange = (filteredJobs) => {
@@ -31,7 +29,11 @@ const JobListing = () => {
     <>
       <SearchJobs onFilterChange={handleFilterChange} />
       <div className='job-listing-container'>
-        <Sidebar jobs={jobs} onFilterChange={handleFilterChange} />
+        <Sidebar
+          jobs={jobs}
+          onFilterChange={handleFilterChange}
+          className='sidebar'
+        />
 
         <div className='job-cards-container'>
           {currentJobs.map((job) => (
@@ -60,9 +62,6 @@ const JobListing = () => {
 
 export default JobListing
 
-
-
-
 /*
 
 ***Data fetching component***
@@ -71,7 +70,6 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from './Sidebar';
 import JobCard from './JobCard';
 import SearchJobs from './SearchJobs';
-import '../../assets/styles/joblisting.css';
 
 const JobListing = () => {
   const [filteredJobs, setFilteredJobs] = useState([]);
